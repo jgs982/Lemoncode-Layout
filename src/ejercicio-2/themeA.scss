@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto&display=swap');
+
+$color-base: red;
+$color-important: darken($color-base, 20%);
+$color-warning: lighten($color-base, 20%);
+$fuente-primaria: 'Koulen', cursive;
+$fuente-secundaria: 'Roboto', sans-serif;
+$radio-borde: 10px;
+$sombra: -15px 15px 11px -4px rgba(0,0,0,0.75);

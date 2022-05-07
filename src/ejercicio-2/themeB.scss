@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Oleo+Script+Swash+Caps&display=swap');
+
+$color-base: blue;
+$color-important: darken($color-base, 20%);
+$color-warning: lighten($color-base, 20%);
+$fuente-primaria: 'Macondo', cursive; 
+$fuente-secundaria: 'Oleo Script Swash Caps', cursive;
+$radio-borde: 4px;
+$sombra: 25px 23px 21px -5px rgba(0,0,0,0.75);

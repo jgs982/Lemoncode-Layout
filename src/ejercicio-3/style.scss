@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {       
+    margin: 20px;
+
+    ul {        
+        background-color: darkblue;
+        color: white;
+        list-style: none;       
+        padding: 0;
+        display: flex;  
+        justify-content: space-around;     
+
+        li {           
+            padding: 20px 40px;                  
+           
+            &:hover {
+                background-color: darkgrey;
+            }
+        }
+    }
+
+    $breakpoint-sm:600px;
+    @media screen and (max-width: $breakpoint-sm) {
+        ul {
+            flex-direction: column;       
+            
+            li {
+                text-align: center;
+            }
+        }
+    }
+}
